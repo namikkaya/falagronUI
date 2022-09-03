@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4DC3633A28C39CFA00BB8EFD /* FalagronUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC3633928C39CFA00BB8EFD /* FalagronUIApp.swift */; };
+		4DC3633C28C39CFA00BB8EFD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC3633B28C39CFA00BB8EFD /* ContentView.swift */; };
+		4DC3633E28C39CFE00BB8EFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DC3633D28C39CFE00BB8EFD /* Assets.xcassets */; };
+		4DC3634128C39CFE00BB8EFD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DC3634028C39CFE00BB8EFD /* Preview Assets.xcassets */; };
+		4DC3634B28C39CFE00BB8EFD /* FalagronUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC3634A28C39CFE00BB8EFD /* FalagronUITests.swift */; };
+		4DC3635528C39CFE00BB8EFD /* FalagronUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC3635428C39CFE00BB8EFD /* FalagronUIUITests.swift */; };
+		4DC3635728C39CFE00BB8EFD /* FalagronUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC3635628C39CFE00BB8EFD /* FalagronUIUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4DC3634728C39CFE00BB8EFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4DC3632E28C39CFA00BB8EFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DC3633528C39CFA00BB8EFD;
+			remoteInfo = FalagronUI;
+		};
+		4DC3635128C39CFE00BB8EFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4DC3632E28C39CFA00BB8EFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DC3633528C39CFA00BB8EFD;
+			remoteInfo = FalagronUI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4DC3633628C39CFA00BB8EFD /* FalagronUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FalagronUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DC3633928C39CFA00BB8EFD /* FalagronUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FalagronUIApp.swift; sourceTree = "<group>"; };
+		4DC3633B28C39CFA00BB8EFD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4DC3633D28C39CFE00BB8EFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4DC3634028C39CFE00BB8EFD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4DC3634628C39CFE00BB8EFD /* FalagronUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FalagronUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DC3634A28C39CFE00BB8EFD /* FalagronUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FalagronUITests.swift; sourceTree = "<group>"; };
+		4DC3635028C39CFE00BB8EFD /* FalagronUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FalagronUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DC3635428C39CFE00BB8EFD /* FalagronUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FalagronUIUITests.swift; sourceTree = "<group>"; };
+		4DC3635628C39CFE00BB8EFD /* FalagronUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FalagronUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4DC3633328C39CFA00BB8EFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DC3634328C39CFE00BB8EFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DC3634D28C39CFE00BB8EFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4DC3632D28C39CFA00BB8EFD = {
+			isa = PBXGroup;
+			children = (
+				4DC3633828C39CFA00BB8EFD /* FalagronUI */,
+				4DC3634928C39CFE00BB8EFD /* FalagronUITests */,
+				4DC3635328C39CFE00BB8EFD /* FalagronUIUITests */,
+				4DC3633728C39CFA00BB8EFD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4DC3633728C39CFA00BB8EFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4DC3633628C39CFA00BB8EFD /* FalagronUI.app */,
+				4DC3634628C39CFE00BB8EFD /* FalagronUITests.xctest */,
+				4DC3635028C39CFE00BB8EFD /* FalagronUIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4DC3633828C39CFA00BB8EFD /* FalagronUI */ = {
+			isa = PBXGroup;
+			children = (
+				4DC3633928C39CFA00BB8EFD /* FalagronUIApp.swift */,
+				4DC3633B28C39CFA00BB8EFD /* ContentView.swift */,
+				4DC3633D28C39CFE00BB8EFD /* Assets.xcassets */,
+				4DC3633F28C39CFE00BB8EFD /* Preview Content */,
+			);
+			path = FalagronUI;
+			sourceTree = "<group>";
+		};
+		4DC3633F28C39CFE00BB8EFD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4DC3634028C39CFE00BB8EFD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4DC3634928C39CFE00BB8EFD /* FalagronUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4DC3634A28C39CFE00BB8EFD /* FalagronUITests.swift */,
+			);
+			path = FalagronUITests;
+			sourceTree = "<group>";
+		};
+		4DC3635328C39CFE00BB8EFD /* FalagronUIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4DC3635428C39CFE00BB8EFD /* FalagronUIUITests.swift */,
+				4DC3635628C39CFE00BB8EFD /* FalagronUIUITestsLaunchTests.swift */,
+			);
+			path = FalagronUIUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4DC3633528C39CFA00BB8EFD /* FalagronUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DC3635A28C39CFE00BB8EFD /* Build configuration list for PBXNativeTarget "FalagronUI" */;
+			buildPhases = (
+				4DC3633228C39CFA00BB8EFD /* Sources */,
+				4DC3633328C39CFA00BB8EFD /* Frameworks */,
+				4DC3633428C39CFA00BB8EFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FalagronUI;
+			productName = FalagronUI;
+			productReference = 4DC3633628C39CFA00BB8EFD /* FalagronUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4DC3634528C39CFE00BB8EFD /* FalagronUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DC3635D28C39CFE00BB8EFD /* Build configuration list for PBXNativeTarget "FalagronUITests" */;
+			buildPhases = (
+				4DC3634228C39CFE00BB8EFD /* Sources */,
+				4DC3634328C39CFE00BB8EFD /* Frameworks */,
+				4DC3634428C39CFE00BB8EFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4DC3634828C39CFE00BB8EFD /* PBXTargetDependency */,
+			);
+			name = FalagronUITests;
+			productName = FalagronUITests;
+			productReference = 4DC3634628C39CFE00BB8EFD /* FalagronUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4DC3634F28C39CFE00BB8EFD /* FalagronUIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DC3636028C39CFE00BB8EFD /* Build configuration list for PBXNativeTarget "FalagronUIUITests" */;
+			buildPhases = (
+				4DC3634C28C39CFE00BB8EFD /* Sources */,
+				4DC3634D28C39CFE00BB8EFD /* Frameworks */,
+				4DC3634E28C39CFE00BB8EFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4DC3635228C39CFE00BB8EFD /* PBXTargetDependency */,
+			);
+			name = FalagronUIUITests;
+			productName = FalagronUIUITests;
+			productReference = 4DC3635028C39CFE00BB8EFD /* FalagronUIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4DC3632E28C39CFA00BB8EFD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					4DC3633528C39CFA00BB8EFD = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					4DC3634528C39CFE00BB8EFD = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 4DC3633528C39CFA00BB8EFD;
+					};
+					4DC3634F28C39CFE00BB8EFD = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 4DC3633528C39CFA00BB8EFD;
+					};
+				};
+			};
+			buildConfigurationList = 4DC3633128C39CFA00BB8EFD /* Build configuration list for PBXProject "FalagronUI" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4DC3632D28C39CFA00BB8EFD;
+			productRefGroup = 4DC3633728C39CFA00BB8EFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4DC3633528C39CFA00BB8EFD /* FalagronUI */,
+				4DC3634528C39CFE00BB8EFD /* FalagronUITests */,
+				4DC3634F28C39CFE00BB8EFD /* FalagronUIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4DC3633428C39CFA00BB8EFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DC3634128C39CFE00BB8EFD /* Preview Assets.xcassets in Resources */,
+				4DC3633E28C39CFE00BB8EFD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DC3634428C39CFE00BB8EFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DC3634E28C39CFE00BB8EFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4DC3633228C39CFA00BB8EFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DC3633C28C39CFA00BB8EFD /* ContentView.swift in Sources */,
+				4DC3633A28C39CFA00BB8EFD /* FalagronUIApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DC3634228C39CFE00BB8EFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DC3634B28C39CFE00BB8EFD /* FalagronUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DC3634C28C39CFE00BB8EFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DC3635728C39CFE00BB8EFD /* FalagronUIUITestsLaunchTests.swift in Sources */,
+				4DC3635528C39CFE00BB8EFD /* FalagronUIUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4DC3634828C39CFE00BB8EFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4DC3633528C39CFA00BB8EFD /* FalagronUI */;
+			targetProxy = 4DC3634728C39CFE00BB8EFD /* PBXContainerItemProxy */;
+		};
+		4DC3635228C39CFE00BB8EFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4DC3633528C39CFA00BB8EFD /* FalagronUI */;
+			targetProxy = 4DC3635128C39CFE00BB8EFD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4DC3635828C39CFE00BB8EFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4DC3635928C39CFE00BB8EFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4DC3635B28C39CFE00BB8EFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FalagronUI/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaya.FalagronUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4DC3635C28C39CFE00BB8EFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FalagronUI/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaya.FalagronUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4DC3635E28C39CFE00BB8EFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaya.FalagronUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FalagronUI.app/FalagronUI";
+			};
+			name = Debug;
+		};
+		4DC3635F28C39CFE00BB8EFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaya.FalagronUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FalagronUI.app/FalagronUI";
+			};
+			name = Release;
+		};
+		4DC3636128C39CFE00BB8EFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaya.FalagronUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FalagronUI;
+			};
+			name = Debug;
+		};
+		4DC3636228C39CFE00BB8EFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaya.FalagronUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FalagronUI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4DC3633128C39CFA00BB8EFD /* Build configuration list for PBXProject "FalagronUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DC3635828C39CFE00BB8EFD /* Debug */,
+				4DC3635928C39CFE00BB8EFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DC3635A28C39CFE00BB8EFD /* Build configuration list for PBXNativeTarget "FalagronUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DC3635B28C39CFE00BB8EFD /* Debug */,
+				4DC3635C28C39CFE00BB8EFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DC3635D28C39CFE00BB8EFD /* Build configuration list for PBXNativeTarget "FalagronUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DC3635E28C39CFE00BB8EFD /* Debug */,
+				4DC3635F28C39CFE00BB8EFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DC3636028C39CFE00BB8EFD /* Build configuration list for PBXNativeTarget "FalagronUIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DC3636128C39CFE00BB8EFD /* Debug */,
+				4DC3636228C39CFE00BB8EFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4DC3632E28C39CFA00BB8EFD /* Project object */;
+}
