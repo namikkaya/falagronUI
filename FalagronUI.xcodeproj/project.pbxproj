@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		4DC262D828DE3111008E5775 /* CoordinatorCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC262D728DE3111008E5775 /* CoordinatorCommon.swift */; };
 		4DC262DB28DE34FB008E5775 /* DetailPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC262DA28DE34FB008E5775 /* DetailPage.swift */; };
+		4DC264A928E2291E008E5775 /* FalagronServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DC264A628E228F3008E5775 /* FalagronServices.framework */; platformFilter = ios; };
+		4DC264AA28E2291E008E5775 /* FalagronServices.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4DC264A628E228F3008E5775 /* FalagronServices.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		4DC3633A28C39CFA00BB8EFD /* FalagronUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC3633928C39CFA00BB8EFD /* FalagronUIApp.swift */; };
 		4DC3633C28C39CFA00BB8EFD /* MainContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC3633B28C39CFA00BB8EFD /* MainContentView.swift */; };
 		4DC3633E28C39CFE00BB8EFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DC3633D28C39CFE00BB8EFD /* Assets.xcassets */; };
@@ -32,6 +34,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		4DC264A528E228F3008E5775 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4DC264A028E228F3008E5775 /* FalagronServices.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4DC2645D28E21CC5008E5775;
+			remoteInfo = FalagronServices;
+		};
+		4DC264A728E228F3008E5775 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4DC264A028E228F3008E5775 /* FalagronServices.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4DC2646728E21CC6008E5775;
+			remoteInfo = FalagronServicesTests;
+		};
 		4DC3634728C39CFE00BB8EFD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 4DC3632E28C39CFA00BB8EFD /* Project object */;
@@ -48,9 +64,24 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		4DC2648B28E2268D008E5775 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				4DC264AA28E2291E008E5775 /* FalagronServices.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		4DC262D728DE3111008E5775 /* CoordinatorCommon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorCommon.swift; sourceTree = "<group>"; };
 		4DC262DA28DE34FB008E5775 /* DetailPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPage.swift; sourceTree = "<group>"; };
+		4DC264A028E228F3008E5775 /* FalagronServices.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = FalagronServices.xcodeproj; path = ../../../FalagronServices/FalagronServices.xcodeproj; sourceTree = "<group>"; };
 		4DC3633628C39CFA00BB8EFD /* FalagronUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FalagronUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DC3633928C39CFA00BB8EFD /* FalagronUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FalagronUIApp.swift; sourceTree = "<group>"; };
 		4DC3633B28C39CFA00BB8EFD /* MainContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainContentView.swift; sourceTree = "<group>"; };
@@ -81,6 +112,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DC264A928E2291E008E5775 /* FalagronServices.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,6 +149,30 @@
 			path = Detail;
 			sourceTree = "<group>";
 		};
+		4DC2647E28E22620008E5775 /* ServicesFramework */ = {
+			isa = PBXGroup;
+			children = (
+				4DC264A028E228F3008E5775 /* FalagronServices.xcodeproj */,
+			);
+			path = ServicesFramework;
+			sourceTree = "<group>";
+		};
+		4DC2648828E2268C008E5775 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4DC264A128E228F3008E5775 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4DC264A628E228F3008E5775 /* FalagronServices.framework */,
+				4DC264A828E228F3008E5775 /* FalagronServicesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		4DC3632D28C39CFA00BB8EFD = {
 			isa = PBXGroup;
 			children = (
@@ -124,6 +180,7 @@
 				4DC3634928C39CFE00BB8EFD /* FalagronUITests */,
 				4DC3635328C39CFE00BB8EFD /* FalagronUIUITests */,
 				4DC3633728C39CFA00BB8EFD /* Products */,
+				4DC2648828E2268C008E5775 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -140,9 +197,10 @@
 		4DC3633828C39CFA00BB8EFD /* FalagronUI */ = {
 			isa = PBXGroup;
 			children = (
+				4DC2647E28E22620008E5775 /* ServicesFramework */,
 				4DC3637D28C4F79600BB8EFD /* Coordinators */,
 				4DC3637128C49CD400BB8EFD /* Layers */,
-				4DC3636E28C49B8C00BB8EFD /* utilities */,
+				4DC3636E28C49B8C00BB8EFD /* Utilities */,
 				4DC3633928C39CFA00BB8EFD /* FalagronUIApp.swift */,
 				4DC3638828CA7B1F00BB8EFD /* AppDelegate.swift */,
 				4DC3638A28CA7B5F00BB8EFD /* SceneDelegate.swift */,
@@ -220,12 +278,12 @@
 			path = UseCaces;
 			sourceTree = "<group>";
 		};
-		4DC3636E28C49B8C00BB8EFD /* utilities */ = {
+		4DC3636E28C49B8C00BB8EFD /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
 				4DC3637228C49CE300BB8EFD /* Base */,
 			);
-			path = utilities;
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 		4DC3637128C49CD400BB8EFD /* Layers */ = {
@@ -302,6 +360,7 @@
 				4DC3633228C39CFA00BB8EFD /* Sources */,
 				4DC3633328C39CFA00BB8EFD /* Frameworks */,
 				4DC3633428C39CFA00BB8EFD /* Resources */,
+				4DC2648B28E2268D008E5775 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -382,6 +441,12 @@
 			mainGroup = 4DC3632D28C39CFA00BB8EFD;
 			productRefGroup = 4DC3633728C39CFA00BB8EFD /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 4DC264A128E228F3008E5775 /* Products */;
+					ProjectRef = 4DC264A028E228F3008E5775 /* FalagronServices.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				4DC3633528C39CFA00BB8EFD /* FalagronUI */,
@@ -390,6 +455,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		4DC264A628E228F3008E5775 /* FalagronServices.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = FalagronServices.framework;
+			remoteRef = 4DC264A528E228F3008E5775 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4DC264A828E228F3008E5775 /* FalagronServicesTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = FalagronServicesTests.xctest;
+			remoteRef = 4DC264A728E228F3008E5775 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		4DC3633428C39CFA00BB8EFD /* Resources */ = {
@@ -604,7 +686,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -633,7 +715,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

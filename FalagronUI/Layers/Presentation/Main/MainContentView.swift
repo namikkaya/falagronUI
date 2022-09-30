@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import FalagronServices
 
 struct MainContentView<ViewModel>: View where ViewModel: MainViewModel {
     @ObservedObject var viewModel: ViewModel
@@ -24,6 +25,7 @@ struct MainContentView<ViewModel>: View where ViewModel: MainViewModel {
                 Task(priority: .background){
                     await viewModel.start()
                 }
+                print("TEST BAKALIM: \(FalagronServices.fetchFal())")
             }
             //.navigationTitle("TEST")
             .toolbar {
